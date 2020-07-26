@@ -1,11 +1,13 @@
 iMessage Archive
 ================
 
-This is forked from [iMessage-Export](https://github.com/aaronpk/iMessage-Export). With [a minor change](https://github.com/aaronpk/iMessage-Export/issues/7) in `archive.php` allows it to work in my system, MacOS Catalina (10.15.6). 
+This is forked from [iMessage-Export](https://github.com/aaronpk/iMessage-Export). With [a minor change](https://github.com/aaronpk/iMessage-Export/issues/7) in `archive.php` allowing it to work in my system, MacOS Catalina (10.15.6). 
 
 If I ever switch to a PC, I might need another workaround to directly perform export from my phone backup. Uh. 
 
-Below are the original `readme` from the project. 
+Simple steps: give Terminal (or whatever you are running bash on) full disk access in `Preferences` > `Privacy & Security`. Create a `contacts.txt` with the formatting as the following. Use `php archive.php` to export iMessage. 
+
+Below is the original `readme` from the project. 
 
 
 --------
