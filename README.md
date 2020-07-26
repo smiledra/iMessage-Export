@@ -1,6 +1,15 @@
 iMessage Archive
 ================
 
+This is forked from (iMessage-Export)[aaronpk/iMessage-Export]. With (a minor change)[https://github.com/aaronpk/iMessage-Export/issues/7] in `archive.php` allows it to work in my system, MacOS Catalina (10.15.6). 
+
+If I ever switch to a PC, I might need another workaround to directly perform export from my phone backup. Uh. 
+
+Below are the original `readme` from the project. 
+
+
+--------
+
 Archives all your iMessage history from the `chat.db` file.
 
 Currently group conversations are not supported.
