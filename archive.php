@@ -15,7 +15,7 @@ while($line = $query->fetch(PDO::FETCH_ASSOC)) {
   $fn = filename_for_message($line['contact'], $line['date']);
   echo $fn."\n";
   if(!file_exists(dirname($fn))) {
-    mkdir(dirname($fn));
+    mkdir(dirname($fn),0777,true);
   }
   if(!file_exists($fn)) {
     file_put_contents($fn, html_template());
